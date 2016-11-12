@@ -25,7 +25,7 @@ class NyaFiles
 end
 
 OptionParser.parse! do |parser|
-  parser.banner = "Usage: uploadtonya [th] file"
+  parser.banner = "Usage: uploadtonya [th] files"
   parser.on("-t TOKEN", "--token=TOKEN", "Specify access token for nya.is") { |token| authtoken = token; auth = true }
   parser.on("-h", "--help", "Show this help") { puts parser; exit() }
   parser.unknown_args do |before, after|

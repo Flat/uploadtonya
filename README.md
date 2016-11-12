@@ -6,7 +6,7 @@ Uploads the given file to nya.is, optionally using your token to login.
 
 
 ```
-git clone uploadtonya && crystal build --release
+git clone https://github.com/Flat/uploadtonya.git && cd uploadtonya && crystal build --release ./src/uploadtonya.cr
 ```
 
 
@@ -15,7 +15,9 @@ git clone uploadtonya && crystal build --release
 
 
 ```
-./uploadtonya [th] files
+Usage: uploadtonya [th] files
+    -t TOKEN, --token=TOKEN          Specify access token for nya.is
+    -h, --help                       Show this help
 ```
 
 ## Development
