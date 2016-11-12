@@ -1,0 +1,6 @@
+version: 1.0
+shards:
+  multipart:
+    github: RX14/multipart.cr
+    version: 0.1.0
+

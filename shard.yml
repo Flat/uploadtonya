@@ -1,0 +1,11 @@
+name: uploadtonya
+version: 0.1.0
+
+authors:
+  - Ken Swenson <flat@imo.uto.moe>
+
+license: MIT
+
+dependencies:
+  multipart:
+    github: RX14/multipart.cr
