@@ -32,4 +32,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/flat) - creator, maintainer
+- [Flat](https://github.com/flat) - creator, maintainer
